@@ -1,0 +1,46 @@
+-bank customer data - preprocessing i clustering (chyba DB scan bo ma kategoiryczne atrybuty)
+-anaomaly detection (kmeans) - jakies fraudy albo inne
+
+
+semi
+-label propagation 
+-cluster then label
+-self training
+-implementatcja entropijnego
+-scikit?
+
+
+
+
+Business application of clustering
+A grocer retailer used clustering to segment its 1.3MM loyalty card customers into 5 different groups based on their buying behavior. It then adopted customized marketing strategies for each of these segments in order to target them more effectively.
+
+-colaborative filtering - rekomendacja artykulow uzytkownikom
+
+-wykrywanie ouliersow e.g. fraud transactions, spam, itp
+nasza klasa mniejszosciowa moze byc tak mala ze metody ucznia zle sie ucza albo moze nie byc przykladow negatywnych
+wowczas mozemy poklastrowac dane - co daje estymacje gestosci - jesli przychodzi przyklad ktory jest daleko od naszego rozkladu to jest podejrzenie
+
+
+
+
+
+-preprocessing do innych metod;
+-redukcja wymiarowosci
+-redukcja instancji
+-ensemble learning - uczymy osobne modele na osobnych klastrach - jak potem zbieramy??
+
+
+-analiza danych o klientach, produktach itp.
+jak scharakteryzowac naszych klientow? statystyka ze wszystkich klientow?
+zwykle są różne typy klientow - latwiej podzielic na podobnych klientow a potem charakteryzowac klientow
+podobni kliencie maja podobne zachowania - chcemy wypuscic nowe oferty naszych produktow - powinnismy dedykowac podobna kampanie do podobnych klientow
+
+
+grafika komputerowa-segmentacja obrazow
+-wykrywanie podstawowych obiektow na obrazie np. twarzy - jak znajdziemy segment to potem klasyfikujemy czy to twarz czy nie
+-inne?
+
+mamy odbiorcow naszego towaru - np. odbiorcy w sieci komporkowej albo odbiory pizzy
+chcemy ustawic wieze nadawcze (albo centra dystrybucji pizzy) - gdzie najlepiej? 
+srednio kazdy odbiorca powinien miec blisko - klastrujemy odbiorcow a centry klastrow to wieze nadawcze
